@@ -17,6 +17,7 @@
 #include <string>
 #include <sstream>
 #include <thread>
+#include <random>
 
 #define NS_SP_BEGIN          
 #define NS_SP_END

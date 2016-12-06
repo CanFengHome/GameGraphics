@@ -52,7 +52,9 @@ Window::Window(const string& winTitle, int winWidth, int winHeight)
     m_iWidth = winWidth;
     m_iHeight = winHeight;
     m_pWindow = nullptr;
-    m_ClearColor = {0.2f, 0.3f, 0.3f, 1.0f};
+//    m_ClearColor = {0.2f, 0.3f, 0.3f, 1.0f};
+    m_clearColor = {1.0f, 1.0f, 1.0f, 1.0f};
+    m_frontColor = {0.0f, 0.0f, 0.0f, 0.0f};
     
     if (!init())
         glfwTerminate();
@@ -158,7 +160,8 @@ bool Window::isMouseButtonPressed(unsigned int button) const
 void Window::clear() const
 {
     glfwPollEvents();
-    glClearColor(m_ClearColor.r, m_ClearColor.g, m_ClearColor.b, m_ClearColor.a);
+    glClearColor(m_clearColor.r, m_clearColor.g, m_clearColor.b, m_clearColor.a);
+    glColor4f(m_frontColor.r, m_frontColor.g, m_frontColor.b, m_frontColor.a);
     glClear(GL_COLOR_BUFFER_BIT | GL_DEPTH_BUFFER_BIT);
 }
 

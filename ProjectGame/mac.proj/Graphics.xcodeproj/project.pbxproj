@@ -29,6 +29,8 @@
 		90979D161DF64CA500BA4CB1 /* Application.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 90979D141DF64CA500BA4CB1 /* Application.cpp */; };
 		90979D1E1DF6550F00BA4CB1 /* Test01.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 90979D1C1DF6550F00BA4CB1 /* Test01.cpp */; };
 		90979D231DF6617E00BA4CB1 /* Test02.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 90979D211DF6617E00BA4CB1 /* Test02.cpp */; };
+		90979D261DF6808A00BA4CB1 /* Test03.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 90979D241DF6808A00BA4CB1 /* Test03.cpp */; };
+		90979D291DF6843B00BA4CB1 /* BasicDraw.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 90979D271DF6843B00BA4CB1 /* BasicDraw.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -88,6 +90,12 @@
 		90979D201DF6594300BA4CB1 /* IRenderObj.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IRenderObj.h; sourceTree = "<group>"; };
 		90979D211DF6617E00BA4CB1 /* Test02.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Test02.cpp; sourceTree = "<group>"; };
 		90979D221DF6617E00BA4CB1 /* Test02.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Test02.h; sourceTree = "<group>"; };
+		90979D241DF6808A00BA4CB1 /* Test03.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Test03.cpp; sourceTree = "<group>"; };
+		90979D251DF6808A00BA4CB1 /* Test03.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Test03.h; sourceTree = "<group>"; };
+		90979D271DF6843B00BA4CB1 /* BasicDraw.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = BasicDraw.cpp; sourceTree = "<group>"; };
+		90979D281DF6843B00BA4CB1 /* BasicDraw.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BasicDraw.h; sourceTree = "<group>"; };
+		90979D2A1DF684F400BA4CB1 /* MathHeader.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MathHeader.h; sourceTree = "<group>"; };
+		90979D651DF6866900BA4CB1 /* RandomUtils.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RandomUtils.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -200,6 +208,7 @@
 				90979D061DF649FC00BA4CB1 /* Vec3.h */,
 				90979D071DF649FC00BA4CB1 /* Vec4.cpp */,
 				90979D081DF649FC00BA4CB1 /* Vec4.h */,
+				90979D2A1DF684F400BA4CB1 /* MathHeader.h */,
 			);
 			name = Math;
 			sourceTree = "<group>";
@@ -207,6 +216,7 @@
 		90979D101DF64A1E00BA4CB1 /* Utils */ = {
 			isa = PBXGroup;
 			children = (
+				90979D651DF6866900BA4CB1 /* RandomUtils.h */,
 				90979D111DF64A3200BA4CB1 /* FileUtils.cpp */,
 				90979D121DF64A3200BA4CB1 /* FileUtils.h */,
 			);
@@ -220,6 +230,8 @@
 				90979D1D1DF6550F00BA4CB1 /* Test01.h */,
 				90979D211DF6617E00BA4CB1 /* Test02.cpp */,
 				90979D221DF6617E00BA4CB1 /* Test02.h */,
+				90979D241DF6808A00BA4CB1 /* Test03.cpp */,
+				90979D251DF6808A00BA4CB1 /* Test03.h */,
 			);
 			name = Test;
 			sourceTree = "<group>";
@@ -228,6 +240,8 @@
 			isa = PBXGroup;
 			children = (
 				90979D201DF6594300BA4CB1 /* IRenderObj.h */,
+				90979D271DF6843B00BA4CB1 /* BasicDraw.cpp */,
+				90979D281DF6843B00BA4CB1 /* BasicDraw.h */,
 			);
 			name = Render;
 			sourceTree = "<group>";
@@ -301,7 +315,9 @@
 				90979D0A1DF649FC00BA4CB1 /* Mat4.cpp in Sources */,
 				90979D161DF64CA500BA4CB1 /* Application.cpp in Sources */,
 				90979D0C1DF649FC00BA4CB1 /* Rectangle.cpp in Sources */,
+				90979D261DF6808A00BA4CB1 /* Test03.cpp in Sources */,
 				90979D0B1DF649FC00BA4CB1 /* Quaternion.cpp in Sources */,
+				90979D291DF6843B00BA4CB1 /* BasicDraw.cpp in Sources */,
 				90979D0F1DF649FC00BA4CB1 /* Vec4.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

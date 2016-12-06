@@ -38,7 +38,12 @@ public:
     
     inline void setClearColor(float _r, float _g, float _b, float _a)
     {
-        m_ClearColor.setColor(_r, _g, _b, _a);
+        m_clearColor.setColor(_r, _g, _b, _a);
+    }
+    
+    inline void setFrontColor(float _r, float _g, float _b, float _a)
+    {
+        m_frontColor.setColor(_r, _g, _b, _a);
     }
     
     inline float getAspactRatio() const
@@ -58,7 +63,8 @@ private:
     bool m_MouseButtons[MAX_BUTTONS];
     
     Vec2 m_cursorPos;
-    Color4F m_ClearColor;
+    Color4F m_clearColor;
+    Color4F m_frontColor;
     
 private:
     friend void window_resize(GLFWwindow* pWindow, int width, int height);
