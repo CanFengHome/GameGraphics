@@ -8,23 +8,39 @@
 
 /* Begin PBXBuildFile section */
 		90979CD91DF6468C00BA4CB1 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 90979CD81DF6468100BA4CB1 /* main.cpp */; };
+		90979CDC1DF6480500BA4CB1 /* CoreAudioKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 90979CDB1DF6480500BA4CB1 /* CoreAudioKit.framework */; };
+		90979CDE1DF6480C00BA4CB1 /* CoreVideo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 90979CDD1DF6480C00BA4CB1 /* CoreVideo.framework */; };
+		90979CE01DF6481200BA4CB1 /* IOKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 90979CDF1DF6481200BA4CB1 /* IOKit.framework */; };
+		90979CE21DF6481900BA4CB1 /* OpenGL.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 90979CE11DF6481900BA4CB1 /* OpenGL.framework */; };
+		90979CE41DF6481F00BA4CB1 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 90979CE31DF6481F00BA4CB1 /* Cocoa.framework */; };
+		90979CE81DF6483700BA4CB1 /* libGLEW.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 90979CE51DF6483700BA4CB1 /* libGLEW.a */; };
+		90979CE91DF6483700BA4CB1 /* libglfw3.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 90979CE61DF6483700BA4CB1 /* libglfw3.a */; };
+		90979CEA1DF6483700BA4CB1 /* libSOIL.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 90979CE71DF6483700BA4CB1 /* libSOIL.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
 		90979CCA1DF6450E00BA4CB1 /* CopyFiles */ = {
 			isa = PBXCopyFilesBuildPhase;
-			buildActionMask = 2147483647;
-			dstPath = /usr/share/man/man1/;
-			dstSubfolderSpec = 0;
+			buildActionMask = 12;
+			dstPath = "";
+			dstSubfolderSpec = 6;
 			files = (
 			);
-			runOnlyForDeploymentPostprocessing = 1;
+			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
 		90979CCC1DF6450E00BA4CB1 /* Graphics */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = Graphics; sourceTree = BUILT_PRODUCTS_DIR; };
 		90979CD81DF6468100BA4CB1 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		90979CDB1DF6480500BA4CB1 /* CoreAudioKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreAudioKit.framework; path = System/Library/Frameworks/CoreAudioKit.framework; sourceTree = SDKROOT; };
+		90979CDD1DF6480C00BA4CB1 /* CoreVideo.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreVideo.framework; path = System/Library/Frameworks/CoreVideo.framework; sourceTree = SDKROOT; };
+		90979CDF1DF6481200BA4CB1 /* IOKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = IOKit.framework; path = System/Library/Frameworks/IOKit.framework; sourceTree = SDKROOT; };
+		90979CE11DF6481900BA4CB1 /* OpenGL.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OpenGL.framework; path = System/Library/Frameworks/OpenGL.framework; sourceTree = SDKROOT; };
+		90979CE31DF6481F00BA4CB1 /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
+		90979CE51DF6483700BA4CB1 /* libGLEW.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libGLEW.a; path = ../../library/libGLEW.a; sourceTree = "<group>"; };
+		90979CE61DF6483700BA4CB1 /* libglfw3.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libglfw3.a; path = ../../library/libglfw3.a; sourceTree = "<group>"; };
+		90979CE71DF6483700BA4CB1 /* libSOIL.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libSOIL.a; path = ../../library/libSOIL.a; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -32,6 +48,14 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				90979CE81DF6483700BA4CB1 /* libGLEW.a in Frameworks */,
+				90979CE91DF6483700BA4CB1 /* libglfw3.a in Frameworks */,
+				90979CEA1DF6483700BA4CB1 /* libSOIL.a in Frameworks */,
+				90979CE41DF6481F00BA4CB1 /* Cocoa.framework in Frameworks */,
+				90979CE21DF6481900BA4CB1 /* OpenGL.framework in Frameworks */,
+				90979CE01DF6481200BA4CB1 /* IOKit.framework in Frameworks */,
+				90979CDE1DF6480C00BA4CB1 /* CoreVideo.framework in Frameworks */,
+				90979CDC1DF6480500BA4CB1 /* CoreAudioKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -43,6 +67,7 @@
 			children = (
 				90979CD71DF6468100BA4CB1 /* src */,
 				90979CCD1DF6450E00BA4CB1 /* Products */,
+				90979CDA1DF6480500BA4CB1 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -61,6 +86,21 @@
 			);
 			name = src;
 			path = ../src;
+			sourceTree = "<group>";
+		};
+		90979CDA1DF6480500BA4CB1 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				90979CE51DF6483700BA4CB1 /* libGLEW.a */,
+				90979CE61DF6483700BA4CB1 /* libglfw3.a */,
+				90979CE71DF6483700BA4CB1 /* libSOIL.a */,
+				90979CE31DF6481F00BA4CB1 /* Cocoa.framework */,
+				90979CE11DF6481900BA4CB1 /* OpenGL.framework */,
+				90979CDF1DF6481200BA4CB1 /* IOKit.framework */,
+				90979CDD1DF6480C00BA4CB1 /* CoreVideo.framework */,
+				90979CDB1DF6480500BA4CB1 /* CoreAudioKit.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -217,6 +257,8 @@
 		90979CD41DF6450E00BA4CB1 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				HEADER_SEARCH_PATHS = $PROJECT_DIR/../../header/;
+				LIBRARY_SEARCH_PATHS = $PROJECT_DIR/../../library;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Debug;
@@ -224,6 +266,8 @@
 		90979CD51DF6450E00BA4CB1 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				HEADER_SEARCH_PATHS = $PROJECT_DIR/../../header/;
+				LIBRARY_SEARCH_PATHS = $PROJECT_DIR/../../library;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Release;
