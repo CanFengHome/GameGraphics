@@ -11,12 +11,14 @@
 #include "Test01.h"  // create window
 #include "Test02.h"  // draw line
 #include "Test03.h"  // random draw Point
+#include "Test04.h"  // draw Polygon
 
 int main(int argc, const char * argv[])
 {
 //    Test01::Test01();
 //    Test02::Test02();
-    Test03::Test03();
+//    Test03::Test03();
+    Test04::Test04();
     
     return 0;
 }

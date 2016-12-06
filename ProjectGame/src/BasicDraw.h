@@ -21,7 +21,8 @@ public:
     static void drawPoint(const Vec3& point);
     static void drawPoint(const std::vector<Vec3>& points);
     
-    
+    static void drawPolygon(const std::vector<Vec2>& points);
+    static void drawPolygon(const std::vector<Vec3>& points);
 };
 
 #endif /* BasicDraw_h */
