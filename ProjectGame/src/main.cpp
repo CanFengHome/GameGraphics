@@ -8,8 +8,11 @@
 
 #include <iostream>
 
-int main(int argc, const char * argv[]) {
-    // insert code here...
-    std::cout << "Hello, World!\n";
+#include "Test01.h"
+
+int main(int argc, const char * argv[])
+{
+    Test01::Test01();
+    
     return 0;
 }
