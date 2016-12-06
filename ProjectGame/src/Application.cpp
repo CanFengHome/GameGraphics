@@ -49,9 +49,14 @@ int Application::run()
             m_fDeltaTime = MAX(0.0f, m_fDeltaTime);
             m_lastUpdate = nowTime;
             
-            std::cout << "render... interval " << m_fDeltaTime << std::endl;
+//            std::cout << "render... interval " << m_fDeltaTime << std::endl;
             
             m_pWindow->clear();
+            
+            for (IRender* pRenderObj : m_arrRenderObjs)
+            {
+                pRenderObj->render();
+            }
             
             m_pWindow->update();
         }
@@ -68,11 +73,24 @@ int Application::run()
 
 void Application::clearAll()
 {
+    for (IRender* pRenderObj : m_arrRenderObjs)
+    {
+        CC_SAFE_DELETE(pRenderObj);
+    }
+    m_arrRenderObjs.clear();
     
+    CC_SAFE_DELETE(m_pWindow);
 }
 
+void Application::addRenderObj(IRender* pRenderObj)
+{
+    m_arrRenderObjs.push_back(pRenderObj);
+}
 
-
+const Window* Application::getWindow() const
+{
+    return m_pWindow;
+}
 
 
 

@@ -84,6 +84,7 @@
 		90979D151DF64CA500BA4CB1 /* Application.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Application.h; sourceTree = "<group>"; };
 		90979D1C1DF6550F00BA4CB1 /* Test01.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Test01.cpp; sourceTree = "<group>"; };
 		90979D1D1DF6550F00BA4CB1 /* Test01.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Test01.h; sourceTree = "<group>"; };
+		90979D201DF6594300BA4CB1 /* IRenderObj.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IRenderObj.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -125,6 +126,7 @@
 		90979CD71DF6468100BA4CB1 /* src */ = {
 			isa = PBXGroup;
 			children = (
+				90979D1F1DF6593B00BA4CB1 /* Render */,
 				90979D1B1DF654FF00BA4CB1 /* Test */,
 				90979D101DF64A1E00BA4CB1 /* Utils */,
 				90979CF81DF649EC00BA4CB1 /* Math */,
@@ -215,6 +217,14 @@
 				90979D1D1DF6550F00BA4CB1 /* Test01.h */,
 			);
 			name = Test;
+			sourceTree = "<group>";
+		};
+		90979D1F1DF6593B00BA4CB1 /* Render */ = {
+			isa = PBXGroup;
+			children = (
+				90979D201DF6594300BA4CB1 /* IRenderObj.h */,
+			);
+			name = Render;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */

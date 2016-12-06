@@ -11,6 +11,7 @@
 
 namespace Test01
 {
+    // create window
     void Test01();
 }
 

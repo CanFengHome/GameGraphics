@@ -12,6 +12,7 @@
 #include "PlatformMacros.h"
 #include "SingletonTemplate.h"
 #include "Window.h"
+#include "IRenderObj.h"
 
 NS_SP_BEGIN
 
@@ -22,6 +23,10 @@ class Application : public SingletonTemplate<Application>
 public:
     void init(const string& title, int winWidth, int winHeight);
     int run();
+    
+    void addRenderObj(IRender* pRenderObj);
+    const Window* getWindow() const;
+    
 private:
     Application();
     virtual ~Application();
@@ -34,6 +39,8 @@ private:
     Window* m_pWindow = nullptr;
     std::chrono::steady_clock::time_point m_lastUpdate;
     float m_fDeltaTime = 0.0f;
+    
+    std::vector<IRender*> m_arrRenderObjs;
 };
 
 NS_SP_END

@@ -26,6 +26,8 @@
 // utils
 #include "FileUtils.h"
 
+// render
+#include "IRenderObj.h"
 
 #endif /* Sharp_h */
 

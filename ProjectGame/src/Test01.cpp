@@ -14,7 +14,7 @@ namespace Test01
 {
     void Test01()
     {
-        APP->init("01", 500, 300);
+        APP->init("01", 500, 500);
         APP->run();
     }
 }
