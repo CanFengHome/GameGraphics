@@ -28,6 +28,7 @@
 		90979D131DF64A3200BA4CB1 /* FileUtils.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 90979D111DF64A3200BA4CB1 /* FileUtils.cpp */; };
 		90979D161DF64CA500BA4CB1 /* Application.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 90979D141DF64CA500BA4CB1 /* Application.cpp */; };
 		90979D1E1DF6550F00BA4CB1 /* Test01.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 90979D1C1DF6550F00BA4CB1 /* Test01.cpp */; };
+		90979D231DF6617E00BA4CB1 /* Test02.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 90979D211DF6617E00BA4CB1 /* Test02.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -85,6 +86,8 @@
 		90979D1C1DF6550F00BA4CB1 /* Test01.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Test01.cpp; sourceTree = "<group>"; };
 		90979D1D1DF6550F00BA4CB1 /* Test01.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Test01.h; sourceTree = "<group>"; };
 		90979D201DF6594300BA4CB1 /* IRenderObj.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IRenderObj.h; sourceTree = "<group>"; };
+		90979D211DF6617E00BA4CB1 /* Test02.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Test02.cpp; sourceTree = "<group>"; };
+		90979D221DF6617E00BA4CB1 /* Test02.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Test02.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -215,6 +218,8 @@
 			children = (
 				90979D1C1DF6550F00BA4CB1 /* Test01.cpp */,
 				90979D1D1DF6550F00BA4CB1 /* Test01.h */,
+				90979D211DF6617E00BA4CB1 /* Test02.cpp */,
+				90979D221DF6617E00BA4CB1 /* Test02.h */,
 			);
 			name = Test;
 			sourceTree = "<group>";
@@ -291,6 +296,7 @@
 				90979D0D1DF649FC00BA4CB1 /* Vec2.cpp in Sources */,
 				90979CF71DF649D500BA4CB1 /* Color.cpp in Sources */,
 				90979CF41DF649B700BA4CB1 /* Window.cpp in Sources */,
+				90979D231DF6617E00BA4CB1 /* Test02.cpp in Sources */,
 				90979D091DF649FC00BA4CB1 /* AABB.cpp in Sources */,
 				90979D0A1DF649FC00BA4CB1 /* Mat4.cpp in Sources */,
 				90979D161DF64CA500BA4CB1 /* Application.cpp in Sources */,
