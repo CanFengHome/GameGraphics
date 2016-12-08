@@ -25,7 +25,7 @@ public:
     int run();
     
     void addRenderObj(IRender* pRenderObj);
-    const Window* getWindow() const;
+    Window* getWindow();
     
 private:
     Application();

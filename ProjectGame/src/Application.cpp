@@ -87,7 +87,7 @@ void Application::addRenderObj(IRender* pRenderObj)
     m_arrRenderObjs.push_back(pRenderObj);
 }
 
-const Window* Application::getWindow() const
+Window* Application::getWindow()
 {
     return m_pWindow;
 }

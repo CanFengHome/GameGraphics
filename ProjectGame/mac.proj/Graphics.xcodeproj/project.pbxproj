@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		904393FB1DF793C20093229D /* Test05.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 904393F91DF793C20093229D /* Test05.cpp */; };
+		904393FD1DF794F60093229D /* res in CopyFiles */ = {isa = PBXBuildFile; fileRef = 904393FC1DF794CF0093229D /* res */; };
+		904394001DF79F500093229D /* Test06.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 904393FE1DF79F500093229D /* Test06.cpp */; };
 		90979CD91DF6468C00BA4CB1 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 90979CD81DF6468100BA4CB1 /* main.cpp */; };
 		90979CDC1DF6480500BA4CB1 /* CoreAudioKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 90979CDB1DF6480500BA4CB1 /* CoreAudioKit.framework */; };
 		90979CDE1DF6480C00BA4CB1 /* CoreVideo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 90979CDD1DF6480C00BA4CB1 /* CoreVideo.framework */; };
@@ -41,12 +44,18 @@
 			dstPath = "";
 			dstSubfolderSpec = 6;
 			files = (
+				904393FD1DF794F60093229D /* res in CopyFiles */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		904393F91DF793C20093229D /* Test05.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Test05.cpp; sourceTree = "<group>"; };
+		904393FA1DF793C20093229D /* Test05.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Test05.h; sourceTree = "<group>"; };
+		904393FC1DF794CF0093229D /* res */ = {isa = PBXFileReference; lastKnownFileType = folder; name = res; path = ../res; sourceTree = "<group>"; };
+		904393FE1DF79F500093229D /* Test06.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Test06.cpp; sourceTree = "<group>"; };
+		904393FF1DF79F500093229D /* Test06.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Test06.h; sourceTree = "<group>"; };
 		90979CCC1DF6450E00BA4CB1 /* Graphics */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = Graphics; sourceTree = BUILT_PRODUCTS_DIR; };
 		90979CD81DF6468100BA4CB1 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 		90979CDB1DF6480500BA4CB1 /* CoreAudioKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreAudioKit.framework; path = System/Library/Frameworks/CoreAudioKit.framework; sourceTree = SDKROOT; };
@@ -124,6 +133,7 @@
 			isa = PBXGroup;
 			children = (
 				90979CD71DF6468100BA4CB1 /* src */,
+				904393FC1DF794CF0093229D /* res */,
 				90979CCD1DF6450E00BA4CB1 /* Products */,
 				90979CDA1DF6480500BA4CB1 /* Frameworks */,
 			);
@@ -237,6 +247,10 @@
 				90979D251DF6808A00BA4CB1 /* Test03.h */,
 				90979D6B1DF6A2DA00BA4CB1 /* Test04.cpp */,
 				90979D6C1DF6A2DA00BA4CB1 /* Test04.h */,
+				904393F91DF793C20093229D /* Test05.cpp */,
+				904393FA1DF793C20093229D /* Test05.h */,
+				904393FE1DF79F500093229D /* Test06.cpp */,
+				904393FF1DF79F500093229D /* Test06.h */,
 			);
 			name = Test;
 			sourceTree = "<group>";
@@ -323,7 +337,9 @@
 				90979D0C1DF649FC00BA4CB1 /* Rectangle.cpp in Sources */,
 				90979D261DF6808A00BA4CB1 /* Test03.cpp in Sources */,
 				90979D0B1DF649FC00BA4CB1 /* Quaternion.cpp in Sources */,
+				904394001DF79F500093229D /* Test06.cpp in Sources */,
 				90979D291DF6843B00BA4CB1 /* BasicDraw.cpp in Sources */,
+				904393FB1DF793C20093229D /* Test05.cpp in Sources */,
 				90979D0F1DF649FC00BA4CB1 /* Vec4.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
