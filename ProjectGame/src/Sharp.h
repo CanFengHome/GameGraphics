@@ -30,7 +30,7 @@
 // render
 #include "IRenderObj.h"
 #include "BasicDraw.h"
-
+#include "Line.h"
 
 #endif /* Sharp_h */
 

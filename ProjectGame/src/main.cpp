@@ -14,6 +14,8 @@
 #include "Test04.h"  // draw Polygon
 #include "Test05.h"  // draw image
 #include "Test06.h"  // draw image by use custom
+#include "Test07.h"  // draw cup line
+
 
 int main(int argc, const char * argv[])
 {
@@ -22,7 +24,8 @@ int main(int argc, const char * argv[])
 //    Test03::Test03();
 //    Test04::Test04();
 //    Test05::Test05();
-    Test06::Test06();
+//    Test06::Test06();
+    Test07::Test07();
     
     return 0;
 }

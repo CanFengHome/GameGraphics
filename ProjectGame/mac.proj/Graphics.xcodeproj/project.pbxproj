@@ -10,6 +10,8 @@
 		904393FB1DF793C20093229D /* Test05.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 904393F91DF793C20093229D /* Test05.cpp */; };
 		904393FD1DF794F60093229D /* res in CopyFiles */ = {isa = PBXBuildFile; fileRef = 904393FC1DF794CF0093229D /* res */; };
 		904394001DF79F500093229D /* Test06.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 904393FE1DF79F500093229D /* Test06.cpp */; };
+		904C5BB31DF8F49800A2E039 /* Line.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 904C5BB11DF8F49800A2E039 /* Line.cpp */; };
+		9066CA021E025FAE0070B0FC /* Test07.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 9066CA001E025FAE0070B0FC /* Test07.cpp */; };
 		90979CD91DF6468C00BA4CB1 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 90979CD81DF6468100BA4CB1 /* main.cpp */; };
 		90979CDC1DF6480500BA4CB1 /* CoreAudioKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 90979CDB1DF6480500BA4CB1 /* CoreAudioKit.framework */; };
 		90979CDE1DF6480C00BA4CB1 /* CoreVideo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 90979CDD1DF6480C00BA4CB1 /* CoreVideo.framework */; };
@@ -56,6 +58,10 @@
 		904393FC1DF794CF0093229D /* res */ = {isa = PBXFileReference; lastKnownFileType = folder; name = res; path = ../res; sourceTree = "<group>"; };
 		904393FE1DF79F500093229D /* Test06.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Test06.cpp; sourceTree = "<group>"; };
 		904393FF1DF79F500093229D /* Test06.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Test06.h; sourceTree = "<group>"; };
+		904C5BB11DF8F49800A2E039 /* Line.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Line.cpp; sourceTree = "<group>"; };
+		904C5BB21DF8F49800A2E039 /* Line.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Line.h; sourceTree = "<group>"; };
+		9066CA001E025FAE0070B0FC /* Test07.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Test07.cpp; sourceTree = "<group>"; };
+		9066CA011E025FAE0070B0FC /* Test07.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Test07.h; sourceTree = "<group>"; };
 		90979CCC1DF6450E00BA4CB1 /* Graphics */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = Graphics; sourceTree = BUILT_PRODUCTS_DIR; };
 		90979CD81DF6468100BA4CB1 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 		90979CDB1DF6480500BA4CB1 /* CoreAudioKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreAudioKit.framework; path = System/Library/Frameworks/CoreAudioKit.framework; sourceTree = SDKROOT; };
@@ -251,6 +257,8 @@
 				904393FA1DF793C20093229D /* Test05.h */,
 				904393FE1DF79F500093229D /* Test06.cpp */,
 				904393FF1DF79F500093229D /* Test06.h */,
+				9066CA001E025FAE0070B0FC /* Test07.cpp */,
+				9066CA011E025FAE0070B0FC /* Test07.h */,
 			);
 			name = Test;
 			sourceTree = "<group>";
@@ -261,6 +269,8 @@
 				90979D201DF6594300BA4CB1 /* IRenderObj.h */,
 				90979D271DF6843B00BA4CB1 /* BasicDraw.cpp */,
 				90979D281DF6843B00BA4CB1 /* BasicDraw.h */,
+				904C5BB11DF8F49800A2E039 /* Line.cpp */,
+				904C5BB21DF8F49800A2E039 /* Line.h */,
 			);
 			name = Render;
 			sourceTree = "<group>";
@@ -324,6 +334,7 @@
 			files = (
 				90979D1E1DF6550F00BA4CB1 /* Test01.cpp in Sources */,
 				90979D131DF64A3200BA4CB1 /* FileUtils.cpp in Sources */,
+				9066CA021E025FAE0070B0FC /* Test07.cpp in Sources */,
 				90979D0E1DF649FC00BA4CB1 /* Vec3.cpp in Sources */,
 				90979CD91DF6468C00BA4CB1 /* main.cpp in Sources */,
 				90979D0D1DF649FC00BA4CB1 /* Vec2.cpp in Sources */,
@@ -331,6 +342,7 @@
 				90979CF41DF649B700BA4CB1 /* Window.cpp in Sources */,
 				90979D231DF6617E00BA4CB1 /* Test02.cpp in Sources */,
 				90979D6D1DF6A2DA00BA4CB1 /* Test04.cpp in Sources */,
+				904C5BB31DF8F49800A2E039 /* Line.cpp in Sources */,
 				90979D091DF649FC00BA4CB1 /* AABB.cpp in Sources */,
 				90979D0A1DF649FC00BA4CB1 /* Mat4.cpp in Sources */,
 				90979D161DF64CA500BA4CB1 /* Application.cpp in Sources */,

@@ -28,6 +28,8 @@ public:
     
     static void drawImage(int imgWidth, int imgHeight, const Vec2& drawLeftTopPt, const unsigned char* const pImageData);
     static void drawImageGL(int imgWidth, int imgHeight, const Vec2& drawLeftTopPt, const unsigned char* const pImageData);
+    
+    static void drawLine(float x1, float y1, float x2, float y2);
 };
 
 #endif /* BasicDraw_h */

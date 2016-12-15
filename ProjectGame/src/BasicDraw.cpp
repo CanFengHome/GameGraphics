@@ -69,7 +69,13 @@ void BasicDraw::drawPolygon(const std::vector<Vec3>& points)
 
 void BasicDraw::drawRect(const Vec2& leftBottomPt, const Vec2& rightTopPt)
 {
-    glRectf(leftBottomPt.x, leftBottomPt.y, rightTopPt.x, rightTopPt.y);
+    //glRectf(leftBottomPt.x, leftBottomPt.y, rightTopPt.x, rightTopPt.y);
+    glBegin (GL_POLYGON); // gl_line_loop
+    glVertex2f(leftBottomPt.x, leftBottomPt.y);
+    glVertex2f(rightTopPt.x, leftBottomPt.y);
+    glVertex2f(rightTopPt.x, rightTopPt.y);
+    glVertex2f(leftBottomPt.x, rightTopPt.y);
+    glEnd();
 }
 
 void BasicDraw::drawImageGL(int imgWidth, int imgHeight, const Vec2& drawLeftTopPt, const unsigned char* const pImageData)
@@ -135,6 +141,14 @@ void BasicDraw::drawImage(int imgWidth, int imgHeight, const Vec2& drawLeftTopPt
             }
         }
     }
+}
+
+void BasicDraw::drawLine(float x1, float y1, float x2, float y2)
+{
+    glBegin(GL_LINES);
+    glVertex2f(x1, y1);
+    glVertex2f(x2, y2);
+    glEnd();
 }
 
 
